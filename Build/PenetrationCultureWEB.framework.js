@@ -19,9 +19,9 @@ var Module=typeof unityFramework!="undefined"?unityFramework:{};var readyPromise
 
     isRunning: false,
 
-    filterMinCF: 0.0001, 
+    filterMinCF: 0.001, 
 
-    filterBeta: 0.001,
+    filterBeta: 10,
 
     controller: null,
 
